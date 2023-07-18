@@ -3,7 +3,7 @@ When using the data or scripts, please cite the paper "A comprehensive protocol 
 (c) Dvir Radunsky & Noam Ben-Eliezer 2023.
 
 This Git respiratory includes scripts and data, which are related to the abovementioned paper.
-The main Git folder includes:
+>> The main Git folder includes:
 
 1. "FreeSurfer_related":
 
@@ -22,7 +22,7 @@ Note:
 Download the scripts and data to a local path. Then, check the path in each script before running the scripts.
 
 
-The data is availble to download from: https://drive.google.com/drive/folders/1sP84ArWZJpT4-4NuuWaWCPrmFpBDjZA4?usp=sharing
+>> The data is availble to download from: https://drive.google.com/drive/folders/1sP84ArWZJpT4-4NuuWaWCPrmFpBDjZA4?usp=sharing
 
 1. "All_volunteers_qMRI_maps.zip":
 	
@@ -33,5 +33,18 @@ The data is availble to download from: https://drive.google.com/drive/folders/1s
 
 	Example raw dataset of a single volunteer, provided in .dcm format - 
 	Includes all raw images acquired using the qMRI protocol.
+
+
+
+>> Processing pipelines are available online and can be download from the following links (request for download/use require either academic license, or, a license for non-academic or commercial use):
+
+mrQ software package: https://github.com/mezera/mrQ
+EMC platform: https://beneliezer-lab.com/software-downloads-page/
+ihMT pipeline: https://github.com/lsoustelle/ihmt_proc
+Susceptibility calculation: https://xip.uclb.com/product/mri_qsm_tkd
+Diffusion pipeline: https://github.com/GalBenZvi/dmriprep
+
+The ihMT sequence is available upon request (guillaume.duhamel@univ-amu.fr) and requires a copyright license agreement with Aix-Marseille University. All other sequences are available in conventional clinical scanners.
+
 
 
