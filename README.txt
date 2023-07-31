@@ -2,7 +2,7 @@ Copyrights -
 When using the data or scripts, please cite the paper "A comprehensive protocol for quantitative magnetic resonance imaging of the brain at 3 Tesla".
 (c) Dvir Radunsky & Noam Ben-Eliezer 2023.
 
-This Git respiratory includes scripts and data, which are related to the abovementioned paper.
+This Git repository includes scripts and data, which are related to the abovementioned paper.
 >> The main Git folder includes:
 
 1. "FreeSurfer_related":
@@ -22,17 +22,16 @@ Note:
 Download the scripts and data to a local path. Then, check the path in each script before running the scripts.
 
 
->> The data is availble to download from: https://drive.google.com/drive/folders/1sP84ArWZJpT4-4NuuWaWCPrmFpBDjZA4?usp=sharing
+>> The data is availble to download from the Figshare “Multiparametric qMRI data” project:
+1.	qMRI data – 
+All quantitative and registered segmentation maps, provided in MATLAB’s (.mat) format.
+•	"qMRI_maps_Session1.zip" - covering data for all volunteers from 1st (N=28) scan session. doi: 10.6084/m9.figshare.23810808
+•	"qMRI_maps_Session2.zip" - covering data for all volunteers from 2nd (N=23) scan session. doi: 10.6084/m9.figshare.23811123
 
-1. "All_volunteers_qMRI_maps.zip":
-	
-	All types of quantitative and registered segmentation maps, provided in .mat format - 
-	Includes the data of all volunteers from 1st (N=28) and 2nd (N=23, denoted with '_S2') scan sessions.
+2.	Raw data – "Example_RawData.zip": 
+A raw dataset of a single volunteer, provided in DICOM (.dcm) format and including all raw images acquired using the qMRI protocol. doi: 10.6084/m9.figshare.23811492
+The entire volunteers’ MRI raw data cannot be shared publicly due to regulatory restrictions, but only under specific research agreements and therefore will be fully available upon request from the corresponding author.
 
-2. "V001_Example_RawData.zip": 
-
-	Example raw dataset of a single volunteer, provided in .dcm format - 
-	Includes all raw images acquired using the qMRI protocol.
 
 
 
